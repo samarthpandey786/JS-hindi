@@ -13,6 +13,7 @@ accoutnCity = "delhi";
 console.log(accountId);
 
 console.table([accountId , accountPassword , accoutnEmail , accoutnCity , accoutState]);
+//asd
 
 /* 
 perfer not to use var 
