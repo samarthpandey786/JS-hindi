@@ -11,9 +11,9 @@ let temp = null;
 // bigInt => 
 //string => ""
 //boolean => true or false
-// null => standalone value represent null or empty value
+// null => standalone value represent null or empty value typeof null is => object:
 // undefined => not assigned the value yet
-// sysbol => for the uniqueness using symbol
+// symbol => for the uniqueness using symbol
 
 //object 
 
