@@ -1,5 +1,6 @@
 //stack(Primitive) , Heap(non - primitive)
 
+// stack
 let myname = "samarthpandey";// work on stack
 
 let myname2 = myname;
@@ -8,6 +9,8 @@ myname2 = "kannu";
 console.log(myname2);
 console.log(myname);
 
+
+// Heap
 let user1 = {
     emial:"samarthpandey@",// work on heap
     upi: 9311250731
