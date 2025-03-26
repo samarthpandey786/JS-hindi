@@ -1,6 +1,7 @@
 // const arr = [1,4,56,7,"samarth"]
 // const heros = ['sakthiman' , 'naagraj']
 
+// another mehtod to declare array
 // const arr2 = new Array(1,2,4,5,56)
 // console.log(arr2[4]);
 
@@ -30,12 +31,12 @@ console.log('A = ',arr4)
 
 const arr5 = arr4.slice(1,3);
 
-console.log("B = ", arr4)
+console.log(" slice B = ", arr4)
 console.log(arr5);
 
 const arr6 = arr4.splice(1,3);
 
-console.log("C = ", arr4)
+console.log("splice C = ", arr4)
 console.log(arr6);
 
 
