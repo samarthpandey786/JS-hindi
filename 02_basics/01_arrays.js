@@ -1,27 +1,27 @@
-// const arr = [1,4,56,7,"samarth"]
-// const heros = ['sakthiman' , 'naagraj']
+const arr = [1,4,56,7,"samarth"]
+const heros = ['sakthiman' , 'naagraj']
 
 // another mehtod to declare array
-// const arr2 = new Array(1,2,4,5,56)
-// console.log(arr2[4]);
+const arr2 = new Array(1,2,4,5,56)
+console.log(arr2[4]);
 
-// // Arrya methods
+// Arrya methods
 
-// arr.push(6)// add the value at the end:
-// arr.pop()// delete the value from the end:
+arr.push(6)// add the value at the end:
+arr.pop()// delete the value from the end:
 
-// arr.unshift(56)// add the value at the starting:
-// arr.shift()// remove the value from the starting:
+arr.unshift(56)// add the value at the starting:
+arr.shift()// remove the value from the starting:
 
-// console.log( arr.includes(56));// if the value is there or not
-// console.log(arr.indexOf(56));// at what index
+console.log( arr.includes(56));// if the value is there or not
+console.log(arr.indexOf(56));// at what index
 
-// const arr3 = arr2.join() // convert the array into string and bind also coma seprated
+const arr3 = arr2.join() // convert the array into string and bind also coma seprated
 
-// console.log( typeof arr3);
-// console.log(arr3);
+console.log( typeof arr3);
+console.log(arr3);
 
-// console.log(arr2);
+console.log(arr2);
 
 
 
@@ -34,7 +34,7 @@ const arr5 = arr4.slice(1,3);
 console.log(" slice B = ", arr4)
 console.log(arr5);
 
-const arr6 = arr4.splice(1,3);
+const arr6 = arr4.splice(1,3);// last value bi lega or orignal value me changes karega 
 
 console.log("splice C = ", arr4)
 console.log(arr6);
