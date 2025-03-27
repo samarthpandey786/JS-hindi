@@ -33,9 +33,9 @@ let score3 = null;
 // 'sam' => true
 
 
-// let num = 33;
-// let stringNum = String(num);
-// console.log(typeof stringNum);
+// // let num = 33;
+// // let stringNum = String(num);
+// // console.log(typeof stringNum);
 // console.log(stringNum)
 
 // Operations
