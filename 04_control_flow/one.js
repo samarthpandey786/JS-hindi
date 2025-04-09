@@ -50,3 +50,14 @@ if(userLoggedIn || debitCard){ // or
 }
 
 
+// Nullish coalescing Operator (??): null undefined 
+
+let val1;
+// val1 = 5 ?? 10
+
+val1 = null ?? 10
+
+console.log(val1);
+
+let temp = 100;
+temp  >= 50 ? console.log("less then 100") : console.log("greater then 50")
