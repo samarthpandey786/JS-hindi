@@ -1,0 +1,27 @@
+-> Javascript
+          -> synchronous = code execuation one by one
+          -> single threaded = only execuation on sigle threaded
+
+
+                        (Default)
+
+
+-> Excuation Context 
+        -> excute on line of code at a time
+        > console.log -> 1
+        > console.log -> 2
+
+        Blocking code VS Non Blocking code
+        > block the flow  
+        of program 
+        >Read file sunc
+
+
+       > doest not 
+        block the executaion
+    >Read file aysnc  
+                                    
+
+
+                               
+        
