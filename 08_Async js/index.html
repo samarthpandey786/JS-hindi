@@ -12,11 +12,65 @@
     <script>
         // asyn main motive is to run the code the programmer is not sure that how much time it'll take to execute so they write asyn code to execute the line of code when the line of code is ready to execute !
 
-        setTimeout(function(){
-             document.querySelector("h1").innerHTML = "best name is the world:"
-        },2000 ) 
+        // {% comment %} setTimeout(function(){
+        //      document.querySelector("h1").innerHTML = "best name is the world:"
+        // },2000 )  {% endcomment %}
 
-        const changeme = setTimeout()
+
+
+        // {% comment %} const changeme = setTimeout() {% endcomment %}
+
+        // const Ans = new Promise((res, rej) => {
+        //         const n = Math.floor(Math.random() * 10);
+        //         // console.log("the n is ", n)
+        //         console.log(n)
+        //         if(n < 5){
+        //             return res();
+        //         }
+        //         else{
+        //             return rej();
+        //         }
+        // })
+
+        // Ans.then((n)=>{
+        //     console.log("below",n);
+        // }).catch((n)=>{
+        //     console.log("above",n);
+        // })
+
+       const p1 =  new Promise((res, rej)=>{
+            return res("sabse pahle ghr aajao saalo:")
+        })
+      const p2 =   p1.then((n)=>{
+            console.log(n)
+            return new Promise((res,rej)=>{
+                return res("gate khol or aaja andr:")
+            }) 
+            
+        })
+        const p3 = p2.then((data)=>{
+            console.log(data);
+            return new Promise((res , rej)=>{
+                return res("khana khao or sojao")
+            })
+
+        })
+
+       const p4 =  p3.then((data)=>{
+            console.log(data)
+            return new Promise((res,rej)=>{
+                 return res(setInterval(() => {
+                    document.querySelector("h1").innerHTML = "this is the example of promis chaining:"
+                 },4000))
+            })
+           
+       })
+        
+
+        p4.then(()=>{
+            console.log("the code is executed check the home h1 tag:")
+        })
+
 
         
        
